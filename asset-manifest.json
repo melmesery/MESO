@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MESO/static/css/main.e7f468db.css",
+    "main.js": "/MESO/static/js/main.18403e43.js",
+    "static/media/project_6.png": "/MESO/static/media/project_6.8c230710ca733697b43f.png",
+    "static/media/project_2.png": "/MESO/static/media/project_2.45eb4d8dd989733dcf55.png",
+    "static/media/project_3.png": "/MESO/static/media/project_3.dddf0363758d46e7b886.png",
+    "static/media/project_1.png": "/MESO/static/media/project_1.3f7b3d87581f3e5f4fe2.png",
+    "static/media/project_5.png": "/MESO/static/media/project_5.35f83eecfada870c1277.png",
+    "static/media/project_4.png": "/MESO/static/media/project_4.15bf6b75603984ca2d9f.png",
+    "static/media/project_7.png": "/MESO/static/media/project_7.91e10e6c601afdb736a5.png",
+    "static/media/profile.jpg": "/MESO/static/media/profile.23b4c1ec51e002bc35b7.jpg",
+    "index.html": "/MESO/index.html",
+    "main.e7f468db.css.map": "/MESO/static/css/main.e7f468db.css.map",
+    "main.18403e43.js.map": "/MESO/static/js/main.18403e43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7f468db.css",
+    "static/js/main.18403e43.js"
+  ]
+}
