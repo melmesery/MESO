@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MESO/static/css/main.1980b5c2.css",
+    "main.css": "/MESO/static/css/main.89e48bb0.css",
     "main.js": "/MESO/static/js/main.54f1ae40.js",
     "static/media/project_6.png": "/MESO/static/media/project_6.8c230710ca733697b43f.png",
     "static/media/project_2.png": "/MESO/static/media/project_2.45eb4d8dd989733dcf55.png",
@@ -12,11 +12,11 @@
     "static/media/project_7.png": "/MESO/static/media/project_7.b22bbd029bee3adb29d7.png",
     "static/media/profile.jpg": "/MESO/static/media/profile.1bf18f1f3e3bc6a4daaf.jpg",
     "index.html": "/MESO/index.html",
-    "main.1980b5c2.css.map": "/MESO/static/css/main.1980b5c2.css.map",
+    "main.89e48bb0.css.map": "/MESO/static/css/main.89e48bb0.css.map",
     "main.54f1ae40.js.map": "/MESO/static/js/main.54f1ae40.js.map"
   },
   "entrypoints": [
-    "static/css/main.1980b5c2.css",
+    "static/css/main.89e48bb0.css",
     "static/js/main.54f1ae40.js"
   ]
 }
