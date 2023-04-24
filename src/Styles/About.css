@@ -1,0 +1,45 @@
+.about {
+  padding: 50px 0;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.103) !important;
+}
+
+.about-me {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.profile {
+  display: block;
+  width: 40%;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.next {
+  display: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .about {
+    width: 100%;
+  }
+
+  .info-card {
+    font-size: 1.1rem;
+  }
+
+  .about-me {
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .profile {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+
+}

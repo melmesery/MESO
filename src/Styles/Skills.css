@@ -1,0 +1,72 @@
+.skills {
+  padding: 40px 0;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.103) !important;
+}
+
+.skill-card {
+  background: none !important;
+  cursor: pointer;
+  border: 0 !important;
+  transition: 1s ease-in-out;
+  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.279);
+  -webkit-box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.279);
+  -moz-box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.279);
+}
+
+.skill-card:hover {
+  transform: scale(0.9);
+  box-shadow: none;
+}
+
+.skill-card:hover .icon {
+  color: #f1b33a;
+}
+
+.skill-card .name {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.skill-card .percent {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: none;
+  color: #f1b33a;
+}
+
+.skill-card .icon {
+  font-size: 5rem;
+  margin-top: -20px;
+}
+
+.skill-card:hover .name {
+  display: none;
+}
+
+.skill-card:hover .percent {
+  display: block;
+}
+
+.skill-card:hover .icon {
+  margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    width: 100%;
+  }
+
+  .skill-card .icon {
+    font-size: 3rem;
+    margin-top: -10px;
+  }
+
+  .skill-card .name {
+    font-size: 1rem !important;
+  }
+  .skill-card:hover {
+    transform: scale(0.9);
+  }
+}

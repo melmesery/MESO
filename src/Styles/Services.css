@@ -1,0 +1,42 @@
+.services {
+  padding: 40px 0;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.103) !important;
+}
+
+.services-row {
+  margin-top: 40px !important;
+}
+
+.services-card {
+  display: flex;
+  align-items: center;
+  background: none !important;
+  border: solid 1px rgba(0, 0, 0, 0.26) !important;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.number {
+  background: rgba(225, 61, 46, 0.182);
+  font-size: 4rem;
+  text-align: center;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+@media only screen and (max-width: 576px) {
+  .services {
+    width: 90%;
+  }
+
+  .carousel {
+    height: 250px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.279);
+    -webkit-box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.279);
+    -moz-box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.279);
+  }
+}

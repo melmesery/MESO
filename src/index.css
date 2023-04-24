@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap");
+
+body {
+  font-family: "Bellefair", serif !important;
+  color: #000 !important;
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    /* font-family: 'Pompiere', cursive !important; */
+    font-family: "Antic Didone", serif !important;
+  }
+}
