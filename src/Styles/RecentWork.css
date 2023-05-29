@@ -1,127 +1,27 @@
 .recent {
-  padding: 40px 0;
-  width: 70%;
-  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  min-height: 30vh;
 }
 
-.recent-container {
-  position: relative;
-  height: 400px;
-  width: 100%;
-  overflow: hidden;
-  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.279);
-  -webkit-box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.279);
-  -moz-box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.279);
-  cursor: pointer;
-  transition: 1s;
-}
-
-.recent-container:hover .about-project {
+.my_work {
   display: block;
-}
-
-.recent-img {
-  display: block;
-  width: 100%;
-}
-
-.about-project {
-  position: absolute;
-  top: 100px;
-  bottom: 0;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.821);
-  z-index: 999 !important;
-  padding: 0 50px;
-  padding-top: 100px;
   text-align: center;
-  color: #fff;
-  display: none;
-  transition: 1s;
+  font-size: 3rem;
+  color: #f1b902;
+  text-decoration: underline wavy;
 }
 
-.project-name {
-  color: #f1b33a;
-  font-size: 4rem;
-  font-weight: 600;
-}
-
-.project-btns button {
-  width: 100px !important;
-  margin: 10px;
-  background: none !important;
-  border: #f1b43a3a solid 1px;
-  padding: 10px;
-  transition: 1s;
-}
-
-.project-btns button:hover {
-  background: #f1b43a3d !important;
-}
-
-.project-btns a {
-  color: #f1b33a;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1.4rem;
-}
-
-.project-btns a:hover {
-  color: #f1b33a;
-}
-
-.visit {
-  border: 0 !important;
-  background: #f1b33a !important;
-  padding: 10px 20px;
-  display: block;
-  margin: 10px auto;
-}
-
-.visit:hover {
-  background: #f1b43a7e !important;
-}
-
-.visit a {
-  color: #000;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.visit a:hover {
-  color: #000;
+.my_work:hover {
+  color: #f1b902;
 }
 
 @media only screen and (max-width: 576px) {
-  .recent {
-    width: 90%;
+  .recent { 
+    min-height: 15vh;
   }
 
-  .recent-container {
-    height: 140px;
-  }
-
-  .about-project {
-    top: 30px;
-    bottom: 0;
-    width: 100%;
-    padding: 0 20px;
-    padding-top: 15px;
-  }
-
-  .project-name {
-    font-size: 2rem;
-  }
-
-  .project-btns button {
-    width: 80px !important;
-    padding: 2px;
-  }
-
-  .project-btns a {
-    color: #f1b33a;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
-  }
+  .my_work { 
+    font-size: 1.1rem; 
+  } 
 }

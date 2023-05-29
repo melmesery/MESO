@@ -1,17 +1,123 @@
 .portfolio {
-  padding: 80px 0;
-  width: 70%;
-  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.back_home {
+  color: #f1b902;
+  text-decoration: underline wavy;
+  font-size: 1.3rem;
+  font-weight: 600;
+  position: fixed;
+  top: 20px;
+  left: 30px;
+}
+
+.back_home:hover {
+  color: #f1b902;
+}
+
+.project_card {
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(236, 237, 254, 0.05) !important;
+  background: #ffffff3f !important;
+  margin-bottom: 60px;
+}
+
+.project_name {
+  color: #f1b902;
+  font-size: 3rem;
+  text-decoration: underline dotted;
+}
+
+.project_des {
+  font-size: 1.2rem;
+}
+
+.project_tech {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.project_view {
+  display: block;
+  width: fit-content;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.project_view:hover {
+  background: #fff;
+  color: #000;
+}
+
+.project_img-container {
+  height: auto;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.project_img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 2s;
+  cursor: pointer;
+}
+
+.project_img:hover {
+  filter: grayscale(0);
 }
 
 @media only screen and (max-width: 576px) {
-  .portfolio {
-    padding: 40px 0;
-    width: 90%;
+  .back_home {
+    font-size: 1rem;
+    position: absolute;
   }
 
-  .portfolio-header {
-    display: flex;
-    justify-content: center;
+  .project_card {
+    padding: 10px; 
+    margin-bottom: 30px;
+    border-radius: 0 !important;
+  }
+
+  .project_name { 
+    font-size: 1.5rem; 
+  }
+
+  .project_des {
+    font-size: 0.8rem;
+  }
+
+  .project_tech { 
+    font-size: 1rem; 
+  }
+
+  .project_view { 
+    margin-bottom: 5px;
+  }
+
+  .project_view:hover {
+    background: #fff;
+    color: #000;
+  }
+
+  .project_img-container { 
+    max-height: 150px; 
+    margin-top: 20px;
+  }
+
+  .project_img {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .project_img:hover {
+    filter: grayscale(0);
   }
 }

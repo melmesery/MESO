@@ -1,15 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
-/* @import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"); 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 body {
-  font-family: "Bellefair", serif !important;
+  font-family: "Share Tech Mono", monospace !important;
   color: #000 !important;
+}
+
+* {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   body {
-    /* font-family: 'Pompiere', cursive !important; */
-    font-family: "Antic Didone", serif !important;
+    /* font-family: "Antic Didone", serif !important; */
   }
 }
