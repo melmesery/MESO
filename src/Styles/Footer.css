@@ -18,8 +18,7 @@ footer a:hover {
 
 @media only screen and (max-width: 576px) {
   footer {
-    font-size: 1rem !important;
-    min-height: 30vh;
+    font-size: 1.2rem; 
     margin-top: 30px;
   }
 }

@@ -28,15 +28,11 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .skills {
-    min-height: 70vh;
-  }
-
   .skill-card {
     padding: 15px;
   }
 
   .skills_tools {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }

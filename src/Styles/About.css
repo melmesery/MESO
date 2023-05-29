@@ -36,10 +36,10 @@
 
 @media only screen and (max-width: 576px) {
   .cv {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .about-me {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }

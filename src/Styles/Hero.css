@@ -36,18 +36,22 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .hero {
+    min-height: 80vh; 
+  }
+
   .hero h1 {
-    font-size: 3rem; 
+    font-size: 5rem; 
   }
 
   .hero p {
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     color: #fff;
     letter-spacing: 1.5px;
   }
 
   .profile {
-    width: 150px;
-    height: 150px; 
+    width: 200px;
+    height: 200px; 
   } 
 }
