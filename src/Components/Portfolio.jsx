@@ -90,7 +90,7 @@ const Portfolio = () => {
           <Col md={{ span: 9 }} xs={{ span: 11 }}>
             {projects.map((project, index) => {
               return (
-                <Row className="project_card d-flex align-items-center justify-content-center">
+                <Row className="project_card d-flex align-items-center justify-content-center flex-wrap-reverse">
                   <Col md={{ span: 6 }}>
                     <p className="project_name">{project.name}</p>
                     <mark className="project_des">{project.des}</mark>

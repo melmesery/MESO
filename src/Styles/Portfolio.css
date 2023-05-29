@@ -80,8 +80,7 @@
 
   .project_card {
     padding: 10px; 
-    margin-bottom: 30px;
-    border-radius: 0 !important;
+    margin-bottom: 30px; 
   }
 
   .project_name { 
@@ -107,7 +106,7 @@
 
   .project_img-container { 
     max-height: 150px; 
-    margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   .project_img {
