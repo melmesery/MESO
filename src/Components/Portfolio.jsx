@@ -28,15 +28,15 @@ const Portfolio = () => {
       tech: "Node.js | Express.js | React.js",
       img: project_2,
       github: "https://github.com/melmesery/CRUD_API",
-      live: "http://melmesery.github.io/MERN_CRUD/",
+      live: "https://melmesery.github.io/MERN_CRUD/",
     },
     {
       name: "Chat App",
       des: "Real time chat application",
       tech: "Node.js | Socket.io | React.js ",
       img: project_3,
-      github: "https://github.com/melmesery/CRUD_API",
-      live: "http://melmesery.github.io/MERN_CRUD/",
+      github: "https://github.com/melmesery/Chat",
+      live: "https://chat-lac-tau.vercel.app/login",
     },
     {
       name: "Forecast App",
@@ -75,8 +75,8 @@ const Portfolio = () => {
       des: "Simple bootstrap design",
       tech: "Bootstrap",
       img: project_8,
-      github: "",
-      live: "",
+      github: "https://github.com/melmesery/Sunnyside",
+      live: "https://melmesery.github.io/Sunnyside",
     },
   ];
 
@@ -112,7 +112,12 @@ const Portfolio = () => {
                   </Col>
                   <Col md={{ span: 6 }}>
                     <div className="project_img-container">
-                      <img src={project.img} alt="" className="project_img" />
+                      <img
+                        src={project.img}
+                        alt="project_img"
+                        className="project_img"
+                        loading="lazy"
+                      />
                     </div>
                   </Col>
                 </Row>
