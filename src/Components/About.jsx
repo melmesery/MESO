@@ -8,7 +8,7 @@ const About = () => {
         <Row className="about-row d-flex align-items-center justify-content-center">
           <Col md= {{span: 9}} xs={{ span: 11 }}>
             <a
-              href="https://drive.google.com/file/d/1Liiznt6sXjIJHzhafRXLzGEu3SMFCqMh/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1-JYizt7a6Erg8iWZtY8GL7nO-SemVAkz/view?usp=sharing"
               target="_blank"
               className="cv"
             >
